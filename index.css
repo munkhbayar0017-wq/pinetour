@@ -1,0 +1,376 @@
+* {
+  margin: 0%;
+}
+.section1 {
+  background: url(/87cef5d5d40a9f22a64d6937ad2f7df5b04e3d85.png) no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1200px;
+}
+.flex-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.text-size {
+  width: 100px;
+  height: 22px;
+  font-size: 18px;
+  color: white;
+}
+.flex-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.budeg-text {
+  font-size: 80px;
+  color: rgba(232, 237, 242, 0.72);
+}
+.awaits {
+  font-size: 250px;
+  color: rgba(253, 253, 254, 0.98);
+}
+.x {
+  margin: 0%;
+}
+
+.font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.bebas {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bold {
+  font-weight: 600;
+  -webkit-text-stroke-width: 2px;
+}
+.section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 512px;
+  text-align: center;
+  background-image: url(/Location\ image.png);
+  background-size: cover;
+}
+.us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 83.5px;
+}
+.zurag {
+  width: 275px;
+  height: 370px;
+  border-radius: 40px;
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  background-size: cover;
+}
+.budeg-text2 {
+  font-size: 37px;
+  color: rgba(232, 237, 242, 0.72);
+  text-shadow: 0 4px 4.9px rgba(0, 0, 0, 0.65);
+}
+.section3 {
+  background: url(/Roadmap\ image.png) no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 1022px;
+}
+.icon-size {
+  width: 14px;
+  height: 14px;
+}
+.buudal {
+  color: var(--text-text-foreground, #09090b);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.aimag {
+  display: flex;
+  gap: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  color: var(--text-text-accent-foreground, #18181b);
+  padding-top: 4px;
+}
+.space {
+  display: flex;
+  justify-content: space-between;
+  width: 513px;
+  height: 112px;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 120px;
+}
+.day {
+  width: 52px;
+  height: 52px;
+  background-color: #f7f6f3;
+  border-radius: 50%;
+  font-family: Inter;
+  font-size: 14px;
+}
+.destination {
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.pack {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: rgba(24, 24, 27, 0.7);
+  padding-top: 10px;
+}
+.tav {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  padding-left: 120px;
+  gap: 20px;
+  position: relative;
+}
+
+.hover {
+  cursor: pointer;
+  position: relative;
+  width: 249px;
+  height: 249px;
+  display: none;
+}
+
+.mdkue {
+  display: flex;
+  gap: 40px;
+  padding-top: 60px;
+}
+.hoverDiv1:hover {
+  border: 4px solid white;
+}
+.hoverDiv2:hover {
+  border: 4px solid white;
+}
+.hoverDiv3:hover {
+  border: 4px solid white;
+}
+.hoverDiv4:hover {
+  border: 4px solid white;
+}
+.hoverDiv5:hover {
+  border: 4px solid white;
+}
+.hoverDiv1:hover ~ .dugui1 {
+  display: flex;
+}
+.hoverDiv2:hover ~ .dugui2 {
+  display: flex;
+}
+.hoverDiv3:hover ~ .dugui3 {
+  display: flex;
+}
+.hoverDiv4:hover ~ .dugui4 {
+  display: flex;
+}
+.hoverDiv5:hover ~ .dugui5 {
+  display: flex;
+}
+
+.dugui1 {
+  position: absolute;
+  top: -46px;
+  right: 300px;
+}
+.dugui2 {
+  position: absolute;
+  top: -150px;
+  right: 600px;
+}
+.dugui3 {
+  position: absolute;
+  top: 0px;
+  left: 800px;
+}
+.dugui4 {
+  position: absolute;
+  top: -80px;
+  left: 800px;
+}
+.dugui5 {
+  position: absolute;
+  top: -100px;
+  right: 800px;
+}
+.section4 {
+  background: url(/Price&Footer\ image.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1120px;
+}
+.iconbutton {
+  width: 36px;
+  height: 36px;
+}
+.title {
+  color: var(--Text-TextPrimary, #121316);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 24px;
+  width: 100%;
+}
+.price {
+  color: #303030;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+}
+.sub {
+  color: #919191;
+  font-family: Inter;
+  font-size: 16px;
+}
+.pricesection {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.check {
+  width: 20px;
+  height: 20px;
+}
+.zai {
+  color: var(--Text-TextSecondary, #3f4145);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  gap: 20px;
+}
+.headertext {
+  color: var(--Text-TextPrimary, #121316);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 40px;
+}
+.button {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  width: 100%;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: var(--radius-rounded-full, 9999px);
+  background: #a4d1e2;
+}
+.tsagaan {
+  background-color: white;
+  border-radius: 50px;
+  width: 384px;
+  height: 527px;
+  gap: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 24px;
+  height: 24px;
+}
+.tovch {
+  background-color: #fafbfc;
+  border-radius: 50px;
+  width: 167px;
+  height: 44px;
+}
+.font2 {
+  color: #6972b5;
+
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hover2 {
+  cursor: pointer;
+  position: relative;
+  display: none;
+}
+.hoverDov:hover {
+  box-shadow: -8px -8px 0 0 rgba(46, 65, 71, 0.40), 8px 8px 0 0 rgba(41, 114, 139, 0.25);
+}
+.hoverDov:hover > .b1{
+  background-color: black;
+  color: white;
+}
+.hoverDov:hover > .b2{
+  background-color: black;
+  color: white;
+}
+.hoverDov:hover > .b3{
+  background-color: black;
+  color: white;
+}
+.hover3 {
+   cursor: pointer;
+  position: relative;
+  display: none;
+}
+.hoverDav:hover {
+  background: rgba(41, 41, 41, 0.40);
+}
+ 
