@@ -234,6 +234,7 @@
   -o-background-size: cover;
   background-size: cover;
   height: 1120px;
+  background: linear-gradient(0deg, rgba(216, 228, 233, 0.00) 0%, #D8E4E9 100%);
 }
 .iconbutton {
   width: 36px;
